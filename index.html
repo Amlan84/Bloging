@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iBlog - Home</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #2563eb;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    nav .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav .nav-links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    nav .nav-links a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 30px;
+      background: linear-gradient(to right, #eff6ff, #dbeafe);
+    }
+    .hero-text {
+      max-width: 600px;
+    }
+    .hero-text h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .hero img {
+      max-width: 400px;
+      height: auto;
+    }
+    .search-bar {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .search-bar input {
+      width: 60%;
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">iBlog</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="contact_us.html">Contact Us</a>
+      <a href="login.html">Login</a>
+      <a href="sign_up.html">Sign Up</a>
+      <a href="profile.html">Profile</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>The Heaven for Bloggers</h1>
+      <p>Share your thoughts with the world. Post stories, read articles, and explore what others have to say on iBlog – your favorite blogging platform.</p>
+    </div>
+    <img src="img/home.svg" alt="Blogging Illustration">
+  </section>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search blogs...">
+  </div>
+</body>
+</html>
